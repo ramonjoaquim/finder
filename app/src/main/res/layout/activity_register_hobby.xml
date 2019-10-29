@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="172dp"
+        android:layout_height="51dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+
+        <com.quintus.labs.datingapp.customfonts.MyTextView_GreatVibes_Regular
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="-2dp"
+            android:text="Finder"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="561dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="112dp"
+        android:layout_marginBottom="58dp"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/getStartedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="20dp"
+            android:text="Escolha seus interesses"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sportsSelectionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:elevation="24dp"
+                android:text="Programação"
+                android:textColor="@android:color/white"
+                android:textSize="55px"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/travelSelectionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="24dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:elevation="24dp"
+                android:text="TI"
+                android:textColor="@android:color/white"
+                android:textSize="55px"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/musicSelectionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:elevation="24dp"
+                android:text="Análise de SI"
+                android:textColor="@android:color/white"
+                android:textSize="55px"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/fishingSelectionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="24dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:elevation="24dp"
+                android:text="Suporte"
+                android:textColor="@android:color/white"
+                android:textSize="55px"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bancoButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:elevation="24dp"
+                android:text="Banco de Dados"
+                android:textColor="@android:color/white"
+                android:textSize="55px"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/internetDasCoisasButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="24dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:elevation="24dp"
+                android:text="Internet das coisas"
+                android:textColor="@android:color/white"
+                android:textSize="36px"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/empreendedorismoButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:elevation="24dp"
+                android:text="Empreendedorismo"
+                android:textColor="@android:color/white"
+                android:textSize="40px"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/redesButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="24dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:elevation="24dp"
+                android:text="Redes"
+                android:textColor="@android:color/white"
+                android:textSize="55px"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/hobbiesContinueButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginRight="24dp"
+            android:background="@color/colorAccent"
+            android:elevation="24dp"
+            android:onClick="onHobbyContinueClicked"
+            android:text="CADASTRAR"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

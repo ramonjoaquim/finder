@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- top navigation -->
+    <include layout="@layout/layout_top_navigation_view" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="Deu Match!"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+<!--
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/matche_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+
+                android:overScrollMode="never">
+
+            </android.support.v7.widget.RecyclerView>
+-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/esucriFoto"
+                android:layout_width="372dp"
+                android:layout_height="358dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="center" />
+
+            <TextView
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_school_black_24dp"
+                android:gravity="center"
+                android:text="  Sistema de informação "
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:gravity="center"
+                android:text=" Esucri"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textAlignment="inherit"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="(48) 3431-3700\n
+                                \nCoordenação: Andréia Ana Bernardini\n
+
+\nContato: andreia@esucri.com.br\n
+\nRua Gonçalves Ledo, nº 185\n
+
+\nCentro - Criciúma - SC\n
+
+\nCEP: 88802-120\n
+"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+<!--
+cor verder icone #69F0AE
+-->
+            <TextView
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_business_center_black_24dp"
+                android:gravity="center"
+                android:text="  Titulação"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="left"
+                android:textAlignment="inherit"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Bacharel em Sistemas de Informação\n
+
+               \nProfissão: Profissional de TI\n
+
+                \nAto Legal: Autorizado pelo MEC, Portaria nº 1.708 de 01/08/2001\n
+
+                \nAto Legal: Renovação de Reconhecimento pelo MEC, Portaria nº 915 de 27/12/2018\n
+
+                \nDuração: 4 anos – 3.000 horas\n
+
+                \nPeríodo: Noturno\n
+
+                \nVagas: 90/ano\n"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_laptop_mac_black_24dp"
+                android:gravity="center"
+                android:text="  Áreas de atuação"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="left"
+                android:textAlignment="inherit"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="No processo de desenvolvimento de software, programação, análise de sistemas, análise de suporte, banco de dados, redes de computadores, gestão de projetos, entre outras áreas da tecnologia.  \nAtuar no setor de tecnologia da informação em organizações, em empresas de desenvolvimento de software, consultoria, ou ainda, ter o próprio negócio na área de tecnologia."
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_check_box_black_24dp"
+                android:gravity="center"
+                android:text="  Objetivo"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="left"
+                android:textAlignment="inherit"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="O curso de bacharelado em Sistemas de Informação forma profissionais em Tecnologia da Informação (TI) com um conjunto de conhecimentos, competências e habilidades para atuar em qualquer ambiente, onde o uso de recursos tecnológicos darão vantagem competitiva e diferenciada na condução dos negócios."
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

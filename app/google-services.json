@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898691435675",
+    "firebase_url": "https://finder-si.firebaseio.com",
+    "project_id": "finder-si",
+    "storage_bucket": "finder-si.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898691435675:android:c5787900eb74fb29",
+        "android_client_info": {
+          "package_name": "com.quintus.labs.datingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898691435675-gcrlbscp95kvelpp3v4b8o36nfvptjnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quintus.labs.datingapp",
+            "certificate_hash": "2277ed64d55c34b3e9285814c2b2c62ae8e2d24e"
+          }
+        },
+        {
+          "client_id": "898691435675-ubikgm4kva8u79a0a5tgebetfmpmr7sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK0KozEC_pJhjTQOTMdiCalkzfrfjJJ6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898691435675-ubikgm4kva8u79a0a5tgebetfmpmr7sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
